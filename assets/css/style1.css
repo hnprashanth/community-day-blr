@@ -67,8 +67,7 @@
 #details {
 	background-color: #ffa400;
 }
-.venue {
-}
+
 .venue p {
 	color: #232f3b;
 	font-size: 20px;
@@ -216,9 +215,6 @@ h4 {
 	font-size: 16px !important;
 	font-weight: normal !important;
 	line-height: 36px;
-}
-
-.nomi {
 }
 
 .nomi ul {
