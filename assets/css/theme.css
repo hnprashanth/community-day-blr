@@ -1313,7 +1313,8 @@ center
 ==========================================================*/
 
 #section-sponsor {
-	background: #e9e9e9;
+	/* background: #e9e9e9; */
+	background: #fff;
 	padding: 80px 0px 120px;
 }
 
@@ -1322,7 +1323,6 @@ center
 	padding: 30px;
 	margin-bottom: 20px;
 }
-
 
 /*=====================================================
     SECTION CONTACT
