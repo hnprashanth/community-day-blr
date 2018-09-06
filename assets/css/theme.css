@@ -6,7 +6,6 @@
     Version: 1.0
 */
 
-
 /* Table of Content
 ==================================================
 1.  Global Styles
@@ -25,44 +24,46 @@
 	Google font
 ==================================================*/
 
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Raleway:400,600,700,300');
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Raleway:400,600,700,300");
 @font-face {
-	font-family: 'FontAwesome';
-	src: url('fonts/fontawesome-webfont.eot?v=4.4.0');
-	src: url('fonts/fontawesome-webfont.eot?#iefix&v=4.4.0') format('embedded-opentype'), url('fonts/fontawesome-webfont.woff2?v=4.4.0') format('woff2'), url('fonts/fontawesome-webfont.woff?v=4.4.0') format('woff'), url('fonts/fontawesome-webfont.ttf?v=4.4.0') format('truetype'), url('fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular') format('svg');
+	font-family: "FontAwesome";
+	src: url("fonts/fontawesome-webfont.eot?v=4.4.0");
+	src: url("fonts/fontawesome-webfont.eot?#iefix&v=4.4.0")
+			format("embedded-opentype"),
+		url("fonts/fontawesome-webfont.woff2?v=4.4.0") format("woff2"),
+		url("fonts/fontawesome-webfont.woff?v=4.4.0") format("woff"),
+		url("fonts/fontawesome-webfont.ttf?v=4.4.0") format("truetype"),
+		url("fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular")
+			format("svg");
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-    font-family: 'frutiger_boldregular';
-    src: url('../fonts/frutb___-webfont.eot');
-    src: url('../fonts/frutb___-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/frutb___-webfont.woff2') format('woff2'),
-         url('../fonts/frutb___-webfont.woff') format('woff'),
-         url('../fonts/frutb___-webfont.ttf') format('truetype'),
-         url('../fonts/frutb___-webfont.svg#frutiger_boldregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+	font-family: "frutiger_boldregular";
+	src: url("../fonts/frutb___-webfont.eot");
+	src: url("../fonts/frutb___-webfont.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/frutb___-webfont.woff2") format("woff2"),
+		url("../fonts/frutb___-webfont.woff") format("woff"),
+		url("../fonts/frutb___-webfont.ttf") format("truetype"),
+		url("../fonts/frutb___-webfont.svg#frutiger_boldregular") format("svg");
+	font-weight: normal;
+	font-style: normal;
 }
-
-
-
 
 @font-face {
-    font-family: 'frutiger_ce_45_lightregular';
-    src: url('../fonts/frutiger_ce_45_light-webfont.eot');
-    src: url('../fonts/frutiger_ce_45_light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/frutiger_ce_45_light-webfont.woff2') format('woff2'),
-         url('../fonts/frutiger_ce_45_light-webfont.woff') format('woff'),
-         url('../fonts/frutiger_ce_45_light-webfont.ttf') format('truetype'),
-         url('../fonts/frutiger_ce_45_light-webfont.svg#frutiger_ce_45_lightregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+	font-family: "frutiger_ce_45_lightregular";
+	src: url("../fonts/frutiger_ce_45_light-webfont.eot");
+	src: url("../fonts/frutiger_ce_45_light-webfont.eot?#iefix")
+			format("embedded-opentype"),
+		url("../fonts/frutiger_ce_45_light-webfont.woff2") format("woff2"),
+		url("../fonts/frutiger_ce_45_light-webfont.woff") format("woff"),
+		url("../fonts/frutiger_ce_45_light-webfont.ttf") format("truetype"),
+		url("../fonts/frutiger_ce_45_light-webfont.svg#frutiger_ce_45_lightregular")
+			format("svg");
+	font-weight: normal;
+	font-style: normal;
 }
-
 
 html,
 input[type="search"] {
@@ -86,7 +87,6 @@ input[type="search"] {
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
-
 
 /**
  * # default
@@ -133,14 +133,13 @@ li {
 	padding-left: 0px;
 }
 
-
 /* ---Typhography--- */
 
 body {
-	    font-family: 'amazon_emberlight';
-    font-weight: 500!important;
-    color: #333;
-    font-size: 14px;
+	font-family: "amazon_emberlight";
+	font-weight: 500 !important;
+	color: #333;
+	font-size: 14px;
 }
 
 h1,
@@ -155,7 +154,6 @@ h6,
 .h4,
 .h5,
 .h6 {
-
 }
 
 h1,
@@ -173,15 +171,13 @@ h1 {
 }
 
 h2 {
-
-
 	color: #e47911;
 
-    font-size: 30px;
+	font-size: 30px;
 	line-height: 1.3em;
 	text-rendering: optimizelegibility;
-	font-family: 'amazon_emberlight';
-	font-weight:500;
+	font-family: "amazon_emberlight";
+	font-weight: 500;
 }
 
 h3 {
@@ -221,20 +217,16 @@ p {
 	font-size: 16px;
 	line-height: 24px;
 	font-weight: 300;
-	opacity: .85;
+	opacity: 0.85;
 }
-
 
 /* ---Typhography Responsive--- */
 
-@media(max-width:840px) {
-
+@media (max-width: 840px) {
 	.banner-main img {
-    padding-top: 0px!important;
-    margin: 0 auto;
-}
-
-
+		padding-top: 0px !important;
+		margin: 0 auto;
+	}
 
 	.title-lg {
 		font-size: 48px;
@@ -257,7 +249,6 @@ img {
 .section-cta {
 	margin-top: 30px;
 }
-
 
 /* ======================================
  * 07. Preloader
@@ -282,7 +273,6 @@ img {
 	background-repeat: no-repeat;
 	background-position: center center;
 }
-
 
 /**
  * # component
@@ -386,15 +376,14 @@ img {
 	box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.12);
 }
 
-
 /*=================================
 	NAVIGATION
 =========================================*/
 
-
-.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
-    color: #fff;
-    background-color: transparent;
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	color: #fff;
+	background-color: transparent;
 }
 
 .navbar-nav > li > a,
@@ -446,20 +435,20 @@ a.navbar-brand i {
 }
 
 .navbar-default {
-background: #232f3e;
+	background: #232f3e;
 }
 
 .navbar-default .navbar-nav > li > a {
 	text-transform: capitalize;
 	font-size: 16px;
 	line-height: 26px;
-	color:#fff;
+	color: #fff;
 }
 
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
 	color: #fff;
-	background: #fbaa19!important;
+	background: #fbaa19 !important;
 }
 
 .navbar-btn {
@@ -469,8 +458,8 @@ background: #232f3e;
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-	background: #fff!important;
-	color: #fff!important;
+	background: #fff !important;
+	color: #fff !important;
 }
 
 @media (min-width: 992px) {
@@ -481,14 +470,13 @@ background: #232f3e;
 	.navbar-lg .navbar-nav > li > a {
 		padding-top: 30px;
 		padding-bottom: 30px;
-		color:#fff;
+		color: #fff;
 	}
 }
 
 .navbar-right a.btn {
 	margin-left: 10px;
 }
-
 
 /**
  * commona
@@ -512,25 +500,23 @@ background: #232f3e;
 }
 
 .section-padding {
-	    padding: 50px 30px;
+	padding: 50px 30px;
 }
-
 
 /*===========================================
 Banner Content
 ===========================================*/
 
 #main-banner {
-
-	background-image:url(../img/banner_bg.jpg);
-    background-size: contain;
+	background-image: url(../img/banner_bg.jpg);
+	background-size: contain;
 	position: relative;
 	height: 425px;
-
 }
 
-#main-banner .left-section { background-image:url(../../images/left-element.png);}
-
+#main-banner .left-section {
+	background-image: url(../../images/left-element.png);
+}
 
 .overlay::before {
 	background-color: rgba(25, 25, 25, 0.85);
@@ -553,7 +539,7 @@ Banner Content
 }
 
 .overlay2::before {
-	background-color: rgba(255, 255, 255, .94);
+	background-color: rgba(255, 255, 255, 0.94);
 	bottom: 0;
 	content: "";
 	left: 0;
@@ -573,7 +559,7 @@ Banner Content
 }
 .banner-main {
 	padding: 30px 0px 0px;
-	text-align:center
+	text-align: center;
 }
 .banner-main h3 {
 	color: #fff;
@@ -586,31 +572,30 @@ Banner Content
 	margin: 35px auto;
 	line-height: 28px;
 }
-.banner-time{
+.banner-time {
 	border: 2px solid#fff;
 	background: #eee;
 	padding: 60px 50px;
 	margin-top: 140px;
 	border-radius: 15px;
 }
-.banner-time h2{
+.banner-time h2 {
 	margin-top: 0px;
 	line-height: 60px;
-	font-family: 'frutiger_ce_45_lightregular';
+	font-family: "frutiger_ce_45_lightregular";
 }
-.banner-time h2 span{
+.banner-time h2 span {
 	display: block;
 	color: #fbaa19;
 	font-size: 70px;
 }
-.banner-time h4{
+.banner-time h4 {
 	color: #333;
 	margin-bottom: 0px;
 }
-.banner-time p{
+.banner-time p {
 	color: #444;
 }
-
 
 /*
 ==========================================
@@ -632,7 +617,6 @@ center
 	-webkit-align-items: center;
 	align-items: center;
 }
-
 
 /*=============================================
 	ABOUT SECTION
@@ -656,18 +640,14 @@ center
 	margin-bottom: 25px;
 }
 
-
 /*==================================================
 	ABOUT MORE SECTION
 =====================================================*/
 
 #section-conference {
-
-
-
 	position: relative;
 
-    border-bottom: 1px solid#eee;
+	border-bottom: 1px solid#eee;
 }
 
 .header-title {
@@ -694,9 +674,9 @@ center
 
 .about-box,
 .about-box i {
-	-webkit-transition: all .3s ease 0s;
-	-o-transition: all .3s ease 0s;
-	transition: all .3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
 }
 
 .about-box i {
@@ -720,7 +700,7 @@ center
 }
 
 .about-box:hover i {
-	color: #fff!important;
+	color: #fff !important;
 	background: #fbaa19;
 }
 
@@ -729,16 +709,16 @@ center
 	margin-bottom: 10px;
 }
 
-
 /*===============================================================================
 	SECTION SCHEDULE
 =================================================================================*/
 
 #schedule-tab {
-	background: #F0F0F0;
+	background: #f0f0f0;
 }
 
-#schedule-tab li {}
+#schedule-tab li {
+}
 
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
@@ -752,8 +732,7 @@ center
 
 .nav-tabs > li.active > a h3,
 .nav-tabs > li.active {
-
-	color: #000!important;
+	color: #000 !important;
 	text-transform: capitalize;
 	font-weight: 700;
 }
@@ -763,7 +742,8 @@ center
 }
 
 .time-desc {
-	margin: 35px 0px;border-bottom: 1px solid #ccc;
+	margin: 35px 0px;
+	border-bottom: 1px solid #ccc;
 }
 
 .tab-content {
@@ -772,7 +752,7 @@ center
 }
 
 .break-time {
-	background: #F0F0F0;
+	background: #f0f0f0;
 	padding: 12px 0px;
 }
 
@@ -783,7 +763,7 @@ center
 .desc-inner h4,
 .s-time h3 {
 	margin-bottom: 10px;
-    font-size: 18px;
+	font-size: 18px;
 }
 
 .desc-inner h5 {
@@ -792,7 +772,7 @@ center
 }
 
 .s-time {
-	background: #F0F0F0;
+	background: #f0f0f0;
 	padding: 10px 10px;
 	text-align: center;
 }
@@ -806,56 +786,47 @@ center
 .s-time h3,
 .desc-inner h3,
 .nav-tabs > li > a h3 {
-	    font-family: 'amazon_emberlight';
-    font-size: 18px;
-    line-height: normal;
-    margin: 10px 0px;
+	font-family: "amazon_emberlight";
+	font-size: 18px;
+	line-height: normal;
+	margin: 10px 0px;
 }
-
 
 /*===============================================================================
 	SECTION SPEAKERS
 =================================================================================*/
 
-
-#section-videos {    border-bottom: 1px solid#eee;}
-
-
+#section-videos {
+	border-bottom: 1px solid#eee;
+}
 
 #section-speaker {
-	    background: #f8f7f5;
-		    border-bottom: 1px solid#eee;
-
+	background: #f8f7f5;
+	border-bottom: 1px solid#eee;
 }
 
 .speaker-box,
 .speaker-info {
-	-webkit-transition: all .3s ease 0s;
-	-o-transition: all .3s ease 0s;
-	transition: all .3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
 }
 
 .speaker-box {
-
-
-    margin-bottom: 30px;
-
+	margin-bottom: 30px;
 }
 
 .speaker-info {
-
 	padding: 0px 0px 15px;
-
 }
 
 .speaker-info {
-
 	padding: 0px 0px 35px;
-
 }
 
-.speaker-info img { border:1px solid #ccc;    margin: 0 auto;
-
+.speaker-info img {
+	border: 1px solid #ccc;
+	margin: 0 auto;
 }
 
 .speaker-box:hover .speaker-info,
@@ -865,35 +836,34 @@ center
 
 .speaker-info h4 {
 	margin-bottom: 0px;
-    color: #444;
-    text-transform: capitalize;
-    font-size: 16px;
-    font-weight: 600;
-    font-family: 'amazon_emberlight';
+	color: #444;
+	text-transform: capitalize;
+	font-size: 16px;
+	font-weight: 600;
+	font-family: "amazon_emberlight";
 	text-align: center;
 }
 
 .speaker-info p {
 	font-weight: normal;
-    font-size: 1em;
-    line-height: 1.6em;
-    color: #333;
-	text-align:center
+	font-size: 1em;
+	line-height: 1.6em;
+	color: #333;
+	text-align: center;
 }
 
-
-
-.speaker-info p a {color:#d01a46}
-
+.speaker-info p a {
+	color: #d01a46;
+}
 
 .speaker-social a i {
 	color: #777;
 	font-size: 20px;
 	text-align: center;
 	border-radius: 3px;
-	-webkit-transition: all .3s ease 0s;
-	-o-transition: all .3s ease 0s;
-	transition: all .3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
 	margin-top: 15px;
 }
 
@@ -901,7 +871,8 @@ center
 	color: #fbaa19;
 }
 
-#speaker-carousel {}
+#speaker-carousel {
+}
 
 #speaker-carousel .carousel-control {
 	width: 10%;
@@ -922,44 +893,36 @@ center
 	opacity: 1;
 }
 
-
 /*===============================================================================
 	SECTION SPEAKERS
 =================================================================================*/
 #section-volunteer {
-	    background: #f8f7f5;
-		    border-bottom: 1px solid#eee;
-
+	background: #f8f7f5;
+	border-bottom: 1px solid#eee;
 }
 
 .volunteer-box,
 .volunteer-info {
-	-webkit-transition: all .3s ease 0s;
-	-o-transition: all .3s ease 0s;
-	transition: all .3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
 }
 
 .volunteer-box {
-
-
-    margin-bottom: 30px;
-
+	margin-bottom: 30px;
 }
 
 .volunteer-info {
-
 	padding: 0px 0px 15px;
-
 }
 
 .volunteer-info {
-
 	padding: 0px 0px 35px;
-
 }
 
-.volunteer-info img { border:1px solid #ccc;    margin: 0 auto;
-
+.volunteer-info img {
+	border: 1px solid #ccc;
+	margin: 0 auto;
 }
 
 .volunteer-box:hover .volunteer-info,
@@ -969,34 +932,33 @@ center
 
 .volunteer-info h4 {
 	margin-bottom: 0px;
-    color: #444;
-    text-transform: capitalize;
-    font-size: 16px;
-    font-weight: 600;
-    font-family: 'amazon_emberlight';
+	color: #444;
+	text-transform: capitalize;
+	font-size: 16px;
+	font-weight: 600;
+	font-family: "amazon_emberlight";
 	text-align: center;
 }
 
 .volunteer-info p {
 	font-weight: normal;
-    font-size: 1em;
-    line-height: 1.6em;
-    color: #333;
+	font-size: 1em;
+	line-height: 1.6em;
+	color: #333;
 }
 
-
-
-.volunteer-info p a {color:#d01a46}
-
+.volunteer-info p a {
+	color: #d01a46;
+}
 
 .volunteer-social a i {
 	color: #777;
 	font-size: 20px;
 	text-align: center;
 	border-radius: 3px;
-	-webkit-transition: all .3s ease 0s;
-	-o-transition: all .3s ease 0s;
-	transition: all .3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
 	margin-top: 15px;
 }
 
@@ -1004,7 +966,8 @@ center
 	color: #fbaa19;
 }
 
-#volunteer-carousel {}
+#volunteer-carousel {
+}
 
 #volunteer-carousel .carousel-control {
 	width: 10%;
@@ -1024,8 +987,6 @@ center
 	font-size: 23px;
 	opacity: 1;
 }
-
-
 
 /*===============================================================================
 	SECTION PRICING
@@ -1082,13 +1043,12 @@ center
 	text-transform: uppercase;
 }
 
-
 /*=============================================
 	WHY CHOOS US
 ==============================================*/
 
 .feature-heading-top {
-	background: #888888 url("../img/bg/img05.jpg")fixed 20% 20%;
+	background: #888888 url("../img/bg/img05.jpg") fixed 20% 20%;
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 70px 0px 120px;
@@ -1100,7 +1060,6 @@ center
 .feature-heading-top .section-heading p {
 	color: #fff;
 }
-
 
 /*=============================================
 	FEATURE SECTION
@@ -1131,9 +1090,9 @@ center
 	padding: 20px 30px;
 	border-bottom: 2px solid#eee;
 	position: relative;
-	-webkit-transition: all .3s ease 0s;
-	-o-transition: all .3s ease 0s;
-	transition: all .3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
 	min-height: 163px;
 }
 
@@ -1185,7 +1144,6 @@ center
 	color: #fff;
 }
 
-
 /*=====================================================
     SECTION GALLERY
 ==========================================================*/
@@ -1194,7 +1152,7 @@ center
 	display: block;
 	padding: 30px 0px;
 	margin: 5px;
-	color: #FFF;
+	color: #fff;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
@@ -1224,7 +1182,7 @@ center
 }
 
 #section-gallery {
-	background: #F4F5F5;
+	background: #f4f5f5;
 }
 
 .owl-dots span {
@@ -1255,7 +1213,6 @@ center
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
-
 
 /*/============================
 	SECTION BLOG
@@ -1307,7 +1264,6 @@ center
 	background: #eee;
 }
 
-
 /*=====================================================
     SECTION SPONSORS
 ==========================================================*/
@@ -1341,16 +1297,16 @@ center
 
 .venue-info h2 {
 	color: #e47911;
-    font-size: 2.5em;
-    line-height: 1.3em;
-    text-rendering: optimizelegibility;
-    font-family: 'amazon_emberlight';
-    font-weight: 500;
+	font-size: 2.5em;
+	line-height: 1.3em;
+	text-rendering: optimizelegibility;
+	font-family: "amazon_emberlight";
+	font-weight: 500;
 }
 
 .venue-info h4 {
 	color: #000;
-	font-weight: normal!important;
+	font-weight: normal !important;
 	margin-bottom: 10px;
 	margin-top: 10px;
 }
@@ -1378,7 +1334,6 @@ center
 
 .venue-location h2 {
 	text-transform: uppercase;
-
 }
 
 .venue-location p {
@@ -1393,7 +1348,6 @@ center
 	margin-top: 20px;
 	font-size: 14px;
 }
-
 
 /*=====================================================
     SECTION FOOTER
@@ -1414,9 +1368,9 @@ center
 	color: #fff;
 	font-size: 25px;
 	line-height: 25px;
-	-webkit-transition: all .3s ease-in 0s;
-	-o-transition: all .3s ease-in 0s;
-	transition: all .3s ease-in 0s;
+	-webkit-transition: all 0.3s ease-in 0s;
+	-o-transition: all 0.3s ease-in 0s;
+	transition: all 0.3s ease-in 0s;
 }
 
 .footer-content h4 {

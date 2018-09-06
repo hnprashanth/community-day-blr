@@ -24,9 +24,11 @@
 	<meta property="og:url" content="https://communityday.awsugblr.in" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="AWS Community Day Bengaluru 2018" />
-	<meta property="og:description" content="AWS Community Day Bengaluru 2018 is a community-organized event featuring technical discussions led by expert AWS users and community leaders. AWS Community Day is being organized by AWS Users Group - Bangalore. This group is for anyone interested in Amazon Web Services, Cloud Computing, AWS design implementation and servicing, EC2, S3, High Scalability Computing, Real Life uses of AWS and cloud servers, SaaS, IAAS, PAAS and many more"
+	<meta property="og:description" content="AWS Community Day Bengaluru 2018 is being organized by AWS User Group Bengaluru which is united by community-led learnings and diversified by the wide variety of tools and technologies closely knit with Amazon Web Services."
 	/>
-	<meta property="og:image" content="./images/assets/community-day-logo-sq.png" />
+	<meta property="og:image" content="https://s3.ap-south-1.amazonaws.com/aws-community-blr/community-day-logo-sq.png" />
+	<meta property="og:image:secure_url" content="https://s3.ap-south-1.amazonaws.com/aws-community-blr/community-day-logo-sq.png"
+	/>
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<title>AWS Community Day Bengaluru 2018</title>
 	<!-- MAIN CSS FILES===================================
@@ -66,11 +68,6 @@
 			cursor: pointer;
 		}
 
-		.platinum .gold .silver .community {
-			position: relative;
-
-		}
-
 		.sponsor {
 			width: 180px;
 			height: 180px;
@@ -79,7 +76,6 @@
 			box-shadow: 0 5px 20px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 			border-radius: 100px;
 			transition: all 0.4s;
-
 		}
 
 		.sponsor:hover {
@@ -91,9 +87,26 @@
 			width: 100%;
 		}
 
+		@media screen and (max-width: 385px) {
+			.sponsor {
+				width: 150px;
+				height: 150px;
 
-		.register:hover {
-			color: #212121
+			}
+		}
+
+
+		@media screen and (max-width: 320px) {
+			.sponsor {
+				width: 130px;
+				height: 130px;
+
+			}
+		}
+
+		.speaker-box-original {
+			margin-bottom: 110px;
+			text-align: center;
 		}
 	</style>
 
@@ -150,7 +163,10 @@
 								<a class="page-scroll" href="#section-event-information">Event Information</a>
 							</li>
 							<li>
-								<a class="page-scroll" href="#section-schedule">Event Agenda</a>
+								<a class="page-scroll" href="#section-conference">Venue</a>
+							</li>
+							<li>
+								<a class="page-scroll" href="#section-schedule">Agenda</a>
 							</li>
 							<li>
 								<a class="page-scroll" href="call-for-proposals.html">Call for Proposals</a>
@@ -165,7 +181,7 @@
 								<a class="page-scroll" href="#section-volunteer">Volunteers</a>
 							</li>
 							<li>
-								<a class="page-scroll" href="#section-conference">Venue</a>
+								<a class="page-scroll" href="#section-contact-us">Contact Us</a>
 							</li>
 						</ul>
 					</div>
@@ -189,11 +205,9 @@
 							<img src="assets/img/community-day-logo.png" class="img-responsive">
 						</h3>
 						<h4>
-							5
-							<sup>th</sup> and 6
-							<sup>th</sup> October 2018, Bengaluru</h4>
+							6<sup>th</sup> October 2018, Bengaluru</h4>
 						<div class="btn submit_btn page-scroll" style="font-weight:bold">
-							<a class="register" href="https://konfhub.com/awsdays#booking" target="_blank">Register Now</a>
+							<a href="https://konfhub.com/awsdays#booking" target="_blank">Register Now</a>
 						</div>
 					</div>
 				</div>
@@ -224,16 +238,18 @@
 				<div class="col-md-12 col-sm-12">
 					<div class="about-intro-1">
 						<!--<div class="about-intro"> -->
+						<!-- <p>
+							<a href="https://www.meetup.com/awsugblr/" target="_blank">AWS User Group Bengaluru</a> had organized the first ever (globally third) AWS Community Day in Bengaluru, on 28th
+							Oct 2017. The all-day event which featured two parallel tracks &#8208; Use Cases / Success Stories and Workshops &#8208; was a huge success.
+						</p> -->
 						<p>
 							<a href="https://www.meetup.com/awsugblr/" target="_blank">AWS User Group Bengaluru</a> had organized the first ever
-							(globally third) AWS Community Day in Bangalore, on 28th Oct 2017. The all-day event which featured two parallel tracks
-							&#8208; Use Cases / Success Stories and Workshops &#8208; was a huge success.
+							(globally third) AWS Community Day in Bengaluru, on 28th Oct 2017. The all-day event which featured two parallel tracks
+							&#8208; Use Cases and Success Stories &#8208; was a huge success.
 						</p>
 						<p>
-							Due to overwhelming response from our community, AWS Community Day 2018 is back. AWS Community Day 2018 will be spread across
-							two days:
-							<br> Day 1 &#8208; Workshop by industry veterans on key AWS services
-							<br> Day 2 &#8208; Success stories, use cases &amp; much more from industry leaders
+							AWS Users Group Bengaluru is back with a bang to host the most awaited event, <b>AWS Community Day Bengaluru 2018</b>,
+							unveiling success stories, use cases & much more from industry leaders.
 						</p>
 						<!-- will see about follow buttons later
                                 <div class="sharethis-inline-follow-buttons"></div>
@@ -247,7 +263,6 @@
 		<div class="a-divider-inner"></div>
 	</section>
 	<!-- section ABOUT end	-->
-
 
 	<!-- section Event Information start -->
 	<section id="section-event-information" class="section-padding">
@@ -273,13 +288,6 @@
 							All skills levels are welcome to help accomplish our motto of learning, sharing and networking. Let’s join hands to empower
 							this tech community to make it bigger and better!
 						</p>
-						<!--
-						<p>This is a Bengaluru based group for anyone interested in Amazon Web Services, cloud computing technology, AWS design implementation
-							and servicing, high scalability/performance computing, production use cases of AWS, blockchain, artificial intelligence and
-							much more.</p>
-						<p> All skill levels are welcome. We started this group with the sole purpose of learning, sharing and networking. Looking forward to
-							explore and collaborate with passionate and enthusiastic folks. Let's come together to create a thriving tech community. </p>
-						-->
 					</div>
 				</div>
 
@@ -297,7 +305,7 @@
 							<li>Novice to Pioneer on relentless pursuit to learn can rejoice the AWS offerings &amp; success stories under one
 								roof.
 							</li>
-							<li>Well organized workshops are worth a million! Take a deep-dive into niche tools &amp; services from AWS</li>
+							<!-- <li>Well organized workshops are worth a million! Take a deep-dive into niche tools &amp; services from AWS</li> -->
 							<li>Take helpful and valuable information back to business</li>
 							<li>Gain visibility to get more publicity for your esteemed organisation</li>
 							<li>Sporting chance for active participants to win AWS goodies</li>
@@ -310,69 +318,45 @@
 		<!-- container end  -->
 	</section>
 	<!-- section Event Information end -->
-
-	<!-- section Sponsor start -->
-	<section id="section-sponsor" class="section-padding">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="section-heading text-center wow fadeInUp animated" style="visibility: visible;">
-						<h2>Supporting Organizations</h2>
-						<h6>*** THIS SECTION WILL BE CONTINUALLY UPDATED AS NEW SPONSORS ARE ADDED ***</h6>
-					</div>
-				</div>
-			</div>
-			<div class="row platinum" style="text-align:center">
-				<h2>Platinum</h2>
-				<div class="col-md-3 col-sm-6 col-xs-6">
-					<div class="sponsor"> <a href="http://www.intel.com/software/products" target="_blank"><img src="images/sponsors/intel_logo.jpg"
-							 alt="intel-logo" class="img-responsive center-block"></a></div>
-				</div>
-				<!-- The below code can be used to redirect to the sponsor registration page if there is any  -->
-				<!-- <div class="col-md-3 col-sm-6 col-xs-6">
-					<div class="sponsor"> <a href="#" target="_blank"><img src="images/sponsors/add_item_logo.jpg" alt="" class="img-responsive center-block"></a></div>
-				</div> -->
-
-			</div>
-			<div class="row gold" style="text-align:center">
-				<h2>Gold</h2>
-				<div class="col-md-3 col-sm-6 col-xs-6">
-					<div class="sponsor"> <a href="https://www.moengage.com/" target="_blank"><img src="images/sponsors/moengage_logo.jpg"
-							 alt="moe-logo" class="img-responsive center-block"></a> </div>
-				</div>
-
-			</div>
-			<div class="row silver" style="text-align:center">
-				<h2>Silver</h2>
-				<div class="col-md-3 col-sm-6 col-xs-6">
-					<div class="sponsor"> <a href="https://www.getpostman.com/" target="_blank"><img src="images/sponsors/postman_logo.jpg"
-							 alt="getpostman-logo" class="img-responsive center-block"> </a></div>
-				</div>
-			</div>
-			<div class="row community" style="text-align:center">
-				<h2>Community</h2>
-				<div class="col-md-3 col-sm-6 col-xs-6">
-					<div class="sponsor"> <a href="https://konfhub.com/" target="_blank"><img src="images/sponsors/konfhub_logo.jpg" alt="konfhub-logo"
-							 class="img-responsive center-block"></a> </div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-6">
-					<div class="sponsor"><img src="images/sponsors/wone_logo.jpg" alt="wone-logo" class="img-responsive center-block"></div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- section Sponsor end -->
-
-
+	<!-- sharing buttons -->
 	<div class="sharethis-inline-share-buttons"></div>
 	</div>
-	<div>
 
-	</div>
-	</div>
+	<!--  section Venue start  -->
+	<section id="section-conference" class=" section-padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-sm-6" style="visibility: visible;">
+					<div class="venue-info text-center">
+						<h2>Venue</h2>
+						<p>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15552.273358718305!2d77.6017552!3d12.9674788!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfe8ae8000ba8c87f!2sThe+Ritz-Carlton%2C+Bangalore!5e0!3m2!1sen!2sin!4v1534494583160"
+							 width="100%" height="250" frameborder="0" style="border:0" allowfullscreen>
+							</iframe>
+						</p>
+						<h4><strong>The Ritz-Carlton, 99, Residency Rd, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560025</strong></h4>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-6  text-center" style="visibility: visible;">
+					<h2>Register</h2>
+					<p>
+						<strong>
+							<span class="font600 font16">Note</span>: Registration charges are non-refundable &amp; non-transferable.</strong>
+					</p>
 
-	</div>
-	</div>
+					<div class="margin_bottom25 col-lg-12">
+						<div class="btn submit_btn page-scroll" style="font-weight:bold">
+							<a href="https://konfhub.com/awsdays#booking" target="_blank">Register Now</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<!-- row end  -->
+		</div>
+		<!-- container end  -->
+	</section>
+	<!--  section Venue end  -->
 
 	<!--  section SCHEDULE start  -->
 	<section id="section-schedule" class="section-padding">
@@ -411,32 +395,75 @@
 												</thead>
 												<tbody>
 													<tr>
-														<td class="td td-width">9:00 to 10:00</td>
-														<td colspan="3" class="tdinfo">Registration and Networking</td>
-													</tr>
-													<tr>
 														<th scope="row" colspan="4" style=" text-align: center;">
 															Morning Sessions
 														</th>
 													</tr>
 													<tr>
+														<td class="td td-width">8:00 to 9:00</td>
+														<td colspan="3" class="tdinfo">Registration and Networking</td>
+													</tr>
+													<tr>
+														<td class="td">9:00 to 9:30</td>
+														<td colspan="3" class="tdinfo"><strong>Keynote</strong><br>
+															<a href="https://www.linkedin.com/in/madhusudanshekar/" target="_blank">Madhusudan Shekar</a>, Evangelist,
+															AWS
+															<br>
+														</td>
+													</tr>
+													<tr>
+														<td class="td">9:30 to 10:00</td>
+														<td colspan="3" class="tdinfo"><strong>Sponsor Talk 1</strong> <br>Details Coming Soon</td>
+													</tr>
+													<tr>
 														<td class="td">10:00 to 10:30</td>
-														<td colspan="3" class="tdinfo">Keynote</td>
+														<td colspan="3" class="tdinfo"><strong>Sponsor Talk 2</strong> <br>Details Coming Soon</td>
 													</tr>
 													<tr>
-														<td class="td">10:30 to 11:15</td>
-														<td colspan="3" class="tdinfo"><strong>Sponsor Talk 1:</strong> Details will be available soon</td>
-													</tr>
-													<tr>
-														<td class="td">11:15 to 11:45</td>
+														<td class="td">10:30 to 11:00</td>
 														<td scope="row" colspan="3" class="td">Tea Break and Networking</td>
 													</tr>
+													<thead class="thead-inverse">
+														<tr>
+															<th style="text-align:center;">Tracks</th>
+															<th width="30%" style="text-align:center;">Track 1 <br> Beginner</th>
+															<th width="30%" style="text-align:center;">Track 2 <br> Intermediate</th>
+															<th width="30%" style="text-align:center;">Track 3 <br> Advanced</th>
+														</tr>
+													</thead>
+													<tbody>
+														<tr>
+															<td class="td"> 11:00 to 11:45</td>
+															<td class="tdinfo"><strong>One or ten things I&#39;ve learned after migrating my infrastructure to serverless</strong><br>
+																<a href="https://www.linkedin.com/in/parvjain/" target="_blank">Parv Jain</a>, Developer, Srijan
+															</td>
+															<td class="tdinfo"><strong>Decentralized enterprise architecture using Blockchain &amp; AWS</strong><br>
+																<a href="https://www.linkedin.com/in/spillaiy/" target="_blank">Shankar Ganesh PJ</a>, Blockchain Solutions
+																Developer, BlockStack<br>
+																<a href="https://www.linkedin.com/in/krishnavasudevan/" target="_blank">Krishna Vasudevan</a>, Technical
+																Marketing Engineer, Infoblox
+															</td>
+															<td class="tdinfo"><strong>Migration story from AWS Singapore to AWS Mumbai</strong><br>
+																<a href="https://www.linkedin.com/in/praneshvittal/" target="_blank">Pranesh Vittal CG</a>, Principal Build
+																&amp; Release Engineer<br>
+															</td>
+														</tr>
+														<tr>
+															<td class="td"> 12:00 to 12:45</td>
+															<td class="tdinfo">Talk 1
+															</td>
+															<td class="tdinfo"><strong>Conversational user interface - Usage of Alexa in enterprise</strong><br>
+																<a href="https://www.linkedin.com/in/ilanchezhian/" target="_blank">Ilanchezhian Ganesamurthy</a>, Solutions
+																Architech, EVRY<br>
+															</td>
+															<td class="tdinfo">Talk 2<br> Details Coming Soon
+															</td>
+														</tr>
+													</tbody>
+
+													<!-- lunch talk -->
 													<tr>
-														<td class="td">11:45 to 12:30</td>
-														<td colspan="3" class="tdinfo"><strong>Sponsor Talk 2:</strong> Details will be available soon</td>
-													</tr>
-													<tr>
-														<td class="td">12:30 to 13:30</td>
+														<td class="td">12:45 to 13:30</td>
 														<td scope="row" colspan="3" class="tdinfo">Lunch and Networking</td>
 													</tr>
 													<tr>
@@ -448,49 +475,75 @@
 												<thead class="thead-inverse">
 													<tr>
 														<th style="text-align:center;">Tracks</th>
-														<th width="30%" style="text-align:center;">Track1: Beginner</th>
-														<th width="30%" style="text-align:center;">Track2: Intermediate</th>
-														<th width="30%" style="text-align:center;">Track3: Advanced</th>
+														<th width="30%" style="text-align:center;">Track 1 <br> Beginner</th>
+														<th width="30%" style="text-align:center;">Track 2 <br> Intermediate</th>
+														<th width="30%" style="text-align:center;">Track 3 <br> Advanced</th>
 													</tr>
 												</thead>
 												<tbody>
 													<tr>
-														<td class="td"> 13:30 to 14:45</td>
-														<td class="tdinfo">Talk1<br> Details Coming Soon
+														<td class="td"> 13:30 to 14:15</td>
+														<td class="tdinfo">Talk 3<br> Details Coming Soon
 														</td>
-														<td class="tdinfo">Talk2<br> Details Coming Soon
+														<td class="tdinfo"><strong>Deciphering a Security Attack using Elastic Stack</strong><br>
+															<a href="https://www.linkedin.com/in/aravindputrevu/" target="_blank">Aravind Putrevu</a>, Developer Advocate,
+															Elastic
+															<br>
 														</td>
-														<td class="tdinfo">Talk3<br> Details Coming Soon
+														<td class="tdinfo">Talk 3<br> Details Coming Soon
 														</td>
 													</tr>
 													<tr>
-														<td class="td"> 14:45 to 15:30</td>
-														<td class="tdinfo">Talk1<br> Details Coming Soon
+														<td class="td"> 14:30 to 15:15</td>
+														<td class="tdinfo">Talk 4<br> Details Coming Soon
 														</td>
-														<td class="tdinfo">Talk2<br> Details Coming Soon
+														<td class="tdinfo"><strong>AWS Networking</strong><br>
+															<a href="https://www.linkedin.com/in/ashwinmurali/" target="_blank">Ashwin Murali</a>, Associate Director,
+															Zoomcar
+															<br>
 														</td>
-														<td class="tdinfo">Talk3<br> Details Coming Soon
+														<td class="tdinfo">Talk 4<br> Details Coming Soon
 														</td>
 													</tr>
 													<tr>
 														<td class="td"> 15:30 to 16:15</td>
-														<td class="tdinfo">Talk1<br> Details Coming Soon
+														<td class="tdinfo">Talk 5<br> Details Coming Soon
 														</td>
-														<td class="tdinfo">Talk2<br> Details Coming Soon
+														<td class="tdinfo"><strong>AppSync in real world - pitfalls, unexpected benefits &amp; lessons learnt</strong><br>
+															<a href="https://www.linkedin.com/in/adithyakreddy/" target="_blank">Adithya Reddy</a>, Software Development
+															Engineer, Branch Financial<br>
 														</td>
-														<td class="tdinfo">Talk3<br> Details Coming Soon
+														<td class="tdinfo">Talk 5<br> Details Coming Soon
 														</td>
 													</tr>
 													<tr>
-														<td class="td">16:15 to 16:45</td>
+														<td class="td"> 16:30 to 17:15</td>
+														<td class="tdinfo">Lightning Talks<br>
+														</td>
+														<td class="tdinfo"><strong>Cost optimized logging using APIGateway, SQS &amp; ElasticSearch</strong><br>
+															<a href="https://www.linkedin.com/in/mitesh-sharma-76722015/" target="_blank">Mitesh Sharma</a>, Technology
+															Lead, Kiwi<br>
+														</td>
+														<td class="tdinfo">Talk 6<br> Details Coming Soon
+														</td>
+													</tr>
+													<tr>
+														<td class="td">17:15 to 17:45</td>
 														<td scope="row" colspan="3" class="tdinfo">
 															Tea Break and Networking
 														</td>
 													</tr>
 													<tr>
-														<td class="td">16:45 to 17:30</td>
+														<td class="td">17:45 to 18:15</td>
+														<td colspan="3" class="tdinfo"><strong>Closing note</strong><br>
+															<a href="https://www.linkedin.com/in/nilesh-vaghela/" target="_blank">Nilesh Vaghela</a>, AWS Community Hero,
+															AWS User Group Ahmedabad<br>
+														</td>
+													</tr>
+													<tr>
+														<td class="td">18:15 to 18:30</td>
 														<td class="tdinfo" scope="row" colspan="3">
-															Closing Note
+															Vote of Thanks
 														</td>
 													</tr>
 												</tbody>
@@ -502,42 +555,241 @@
 						</div>
 						<!--  time desc end  	 -->
 					</div>
-					<!--  time pane end  	 -->
-					<div class="tab-pane fade in " id="tab-c">
-						<div class="time-desc">
-							<div class="container">
-								<div class="row">
-									<div class="col-md-12 col-xs-12 col-sm-6">
-										<div class="desc-inner">
-											<h4>1. Booth 1</h4>
-											<p>Booth 1 details</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- time desc end  	 -->
-						<div class="time-desc">
-							<div class="container">
-								<div class="row">
-									<div class="col-md-12 col-xs-12 col-sm-6">
-										<div class="desc-inner">
-											<h4>2. Booth 2</h4>
-											<p>Booth 2 details</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- time desc end  	 -->
-					</div>
-					<!--  time pane  end  	 -->
 					<!--  time pane  end  	 -->
 				</div>
 			</div><!-- row end  -->
 		</div><!-- container end  -->
 	</section>
 	<!--  section SCHEDULE end  -->
+
+
+	<!-- section Sponsor start -->
+	<section id="section-sponsor" class="section-padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="section-heading text-center wow fadeInUp animated" style="visibility: visible;">
+						<h2>Supporting Organizations</h2>
+						<h6>*** THIS SECTION WILL BE CONTINUALLY UPDATED AS NEW SPONSORS ARE ADDED ***</h6>
+					</div>
+				</div>
+			</div>
+			<div class="row platinum" style="text-align:center">
+				<h2>Platinum</h2>
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="sponsor"> <a href="http://www.intel.com/software/products" target="_blank"><img src="images/sponsors/intel_logo.jpg"
+							 alt="intel-logo" class="img-responsive center-block"></a></div>
+				</div>
+
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="sponsor"> <a href="https://tech.hotstar.com/" target="_blank"><img src="images/sponsors/hotstar.png" alt="intel-logo"
+							 class="img-responsive center-block"></a></div>
+				</div>
+				<!-- The below code can be used to redirect to the sponsor registration page if there is any  -->
+				<!-- <div class="col-md-3 col-sm-6 col-xs-6">
+						<div class="sponsor"> <a href="#" target="_blank"><img src="images/sponsors/add_item_logo.jpg" alt="" class="img-responsive center-block"></a></div>
+					</div> -->
+
+			</div>
+			<div class="row gold" style="text-align:center">
+				<h2>Gold</h2>
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="sponsor"> <a href="https://www.moengage.com/" target="_blank">
+							<img src="images/sponsors/moengage_logo.jpg" alt="moe-logo" class="img-responsive center-block"></a> </div>
+				</div>
+
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="sponsor"> <a href="https://www.swiggy.com/" target="_blank">
+							<img src="images/sponsors/swiggy_logo.png" alt="swiggy-logo" class="img-responsive center-block"></a> </div>
+				</div>
+
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="sponsor"> <a href="https://www.elastic.co/" target="_blank">
+							<img src="images/sponsors/elastic_logo.png" alt="elastic_logo" class="img-responsive center-block"></a> </div>
+				</div>
+
+			</div>
+			<div class="row silver" style="text-align:center">
+				<h2>Silver</h2>
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="sponsor"> <a href="https://www.getpostman.com/" target="_blank">
+							<img src="images/sponsors/postman_logo.jpg" alt="getpostman-logo" class="img-responsive center-block"> </a></div>
+				</div>
+			</div>
+			<div class="row community" style="text-align:center">
+				<h2>Community</h2>
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="sponsor"> <a href="https://konfhub.com/" target="_blank">
+							<img src="images/sponsors/konfhub_logo.jpg" alt="konfhub-logo" class="img-responsive center-block"></a> </div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-6">
+
+					<div class="sponsor">
+						<a href="#" target="_blank">
+							<img src="images/sponsors/wone_logo.jpg" alt="wone-logo" class="img-responsive center-block">
+						</a>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="sponsor">
+						<a href="https://www.meetup.com/cloud-native-blr/" target="_blank">
+							<img src="images/sponsors/cloud_native_logo.png" alt="cloud_native_logo" class="img-responsive center-block">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- sharing buttons -->
+	<div class="sharethis-inline-share-buttons"></div>
+	</div>
+	<div>
+
+	</div>
+	</div>
+
+	</div>
+	</div>
+
+
+	<!--  section Volunteers start  -->
+	<section id="section-speaker" class="section-padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="section-heading text-center ">
+						<h2>Speakers</h2>
+
+					</div>
+				</div>
+			</div>
+			<div class="row row1">
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="speaker-box1 speaker-box-original">
+						<div class="speaker-info">
+							<img src="images/speakers/adithya_reddy.png" class="img-responsive">
+							<h4>Adithya Reddy </h4>
+							<span> Software Development Engineer (Branch Financial)</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-6 ">
+					<div class="speaker-box1 speaker-box-original">
+						<div class="speaker-info">
+							<img src="images/speakers/aravind.png" class="img-responsive">
+							<h4>Aravind Putrevu </h4>
+							<span> Developer Advocate at Elastic</span>
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-6 ">
+					<div class="speaker-box1 speaker-box-original">
+						<div class="speaker-info">
+							<img src="images/speakers/ashwin.png" class="img-responsive">
+							<h4>Ashwin Murali </h4>
+							<span> Associate Director at Zoomcar</span>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6 col-xs-6 ">
+					<div class="speaker-box1 speaker-box-original">
+						<div class="speaker-info">
+							<img src="images/speakers/krishna.png" class="img-responsive">
+							<h4>Krishna Vasudevan </h4>
+							<span> Technical Marketing Engineer at Infoblox</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- row end  -->
+			<div class="row row2">
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="speaker-box1 speaker-box-original">
+						<div class="speaker-info">
+							<img src="images/speakers/ilanchezhian.png" class="img-responsive">
+							<h4>Ilanchezhian Ganesamurthy </h4>
+							<span> Solutions Architect at EVRY</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-6 ">
+					<div class="speaker-box1 speaker-box-original">
+						<div class="speaker-info">
+							<img src="images/speakers/jiju.png" class="img-responsive">
+							<h4>Jiju Thomas Mathew </h4>
+							<span> CTO of Innoval Digital Solutions</span>
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-6 ">
+					<div class="speaker-box1 speaker-box-original">
+						<div class="speaker-info">
+							<img src="images/speakers/madhusudan.png" class="img-responsive">
+							<h4>Madhusudan Shekar </h4>
+							<span> Principal Technical Evangelist at Amazon</span>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6 col-xs-6 ">
+					<div class="speaker-box1 speaker-box-original">
+						<div class="speaker-info">
+							<img src="images/speakers/dilip.png" class="img-responsive">
+							<h4>Dilip Kola </h4>
+							<span>Co-Founder of Tensult</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6 col-xs-6 ">
+					<div class="speaker-box1 speaker-box-original">
+						<div class="speaker-info">
+							<img src="images/speakers/mani.png" class="img-responsive">
+							<h4>Mani Chandrasekaran </h4>
+							<span> Solution Architect at Amazon Internet Services Private Ltd</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-6 ">
+					<div class="speaker-box1 speaker-box-original">
+						<div class="speaker-info">
+							<img src="images/speakers/mithesh.png" class="img-responsive">
+							<h4>Mitesh Sharma</h4>
+							<span> Technology Lead at Kiwi</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6 col-xs-6 ">
+					<div class="speaker-box1 speaker-box-original">
+						<div class="speaker-info">
+							<img src="images/speakers/pranesh.png" class="img-responsive">
+							<h4>Pranesh Vittal CG+Database Architect+Medlife.com</h4>
+							<span> Database Architect at Medlife.com</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6 col-xs-6 ">
+					<div class="speaker-box1 speaker-box-original">
+						<div class="speaker-info">
+							<img src="images/speakers/shankar.png" class="img-responsive">
+							<h4>Shankar Ganesh</h4>
+							<span> Blockchain Solutions Developer at BlockStack</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- container end  -->
+	</section>
+	<!--  section Volunteers end  -->
 
 	<!--  section Volunteers start  -->
 	<section id="section-volunteer" class="section-padding">
@@ -615,7 +867,6 @@
 									</div>
 								</div>
 							</div>
-
 							<div class="col-md-3 col-sm-6 col-xs-6">
 								<div class="speaker-box1">
 									<div class="speaker-info">
@@ -624,7 +875,6 @@
 									</div>
 								</div>
 							</div>
-
 							<div class="col-md-3 col-sm-6 col-xs-6">
 								<div class="speaker-box1">
 									<div class="speaker-info">
@@ -633,7 +883,6 @@
 									</div>
 								</div>
 							</div>
-
 							<div class="col-md-3 col-sm-6 col-xs-6">
 								<div class="speaker-box1">
 									<div class="speaker-info">
@@ -666,7 +915,6 @@
 									</div>
 								</div>
 							</div>
-
 						</div>
 						<!--item end-->
 
@@ -680,46 +928,26 @@
 	</section>
 	<!--  section Volunteers end  -->
 
-	<!--  section Venue start  -->
-	<section id="section-conference" class=" section-padding">
+	<section id="section-contact-us" class="section-padding">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6 col-sm-6" style="visibility: visible;">
-					<div class="venue-info text-center">
-						<h2>Venue</h2>
+				<div class="col-md-12">
+					<div class="section-heading text-center ">
+						<h2>Contact Us</h2>
 
-						<p>
-							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15552.273358718305!2d77.6017552!3d12.9674788!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfe8ae8000ba8c87f!2sThe+Ritz-Carlton%2C+Bangalore!5e0!3m2!1sen!2sin!4v1534494583160"
-							 width="100%" height="250" frameborder="0" style="border:0" allowfullscreen>
-							</iframe>
-						</p>
-						<h4><strong>The Ritz-Carlton, 99, Residency Rd, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560025</strong></h4>
 					</div>
 				</div>
-				<div class="col-md-6 col-sm-6  text-center" style="visibility: visible;">
-					<h2>Register</h2>
-					<p>
-						<strong>
-							<span class="font600 font16">Note</span>: There is a token charge for registration to ensure serious participation
-							and management of event/goodies. It is non-refundable &amp; non-transferable.</strong>
-					</p>
-
-					<div class="margin_bottom25 col-lg-12">
-
-						<!-- <div class="btn btn-gold submit_btn">On spot registration is open </div>-->
-						<div class="btn submit_btn page-scroll" style="font-weight:bold ">
-							<a class="register" href="https://konfhub.com/awsdays#booking" target="_blank">Register Now</a>
-						</div>
+				<div class="col-md-12 col-sm-12">
+					<div class="contact-us">
+						<p>
+							For sponsorship enquires, topic proposals, ticketing, feedback or any general question on AWS Community Day Bengaluru 2018,
+							please drop an email to <a href="mailto:info@awsugblr.in">info@awsugblr.in</a>
+						</p>
 					</div>
-
 				</div>
 			</div>
-			<!-- row end  -->
 		</div>
-		<!-- container end  -->
 	</section>
-	<!--  section Venue end  -->
-
 
 	<!-- section footer start -->
 	<section id="section-footer">
@@ -754,7 +982,48 @@
 	<script src="https://doplrafkvxyec.cloudfront.net/assets/js/custom.js"></script>
 
 
+	<!-- Webshare API -->
+	<script>
 
+		var shareButton = document.getElementById( 'shareThis' );
+		var fbButton = document.getElementById( 'fb' );
+		var twitterButton = document.getElementById( 'twitter' );
+		var linkedinButton = document.getElementById( 'linkedin' );
+		if ( navigator.userAgent.match( /Android/i )
+			|| navigator.userAgent.match( /webOS/i )
+			|| navigator.userAgent.match( /iPhone/i )
+			|| navigator.userAgent.match( /iPad/i )
+			|| navigator.userAgent.match( /iPod/i )
+			|| navigator.userAgent.match( /BlackBerry/i )
+			|| navigator.userAgent.match( /Windows Phone/i )
+		) {
+			shareButton.style.display = 'block';
+			fbButton.style.display = 'none';
+			twitterButton.style.display = 'none';
+			linkedinButton.style.display = 'none';
+
+		} else {
+			shareButton.style.display = 'none';
+		}
+		var supported = document.getElementById( 'support' );
+		// Listen for any clicks
+		shareButton.addEventListener( 'click', function ( ev ) {
+			// Check if the current browser supports the Web Share API
+			if ( navigator.share !== undefined ) {
+				// Get the canonical URL from the link tag
+				var shareUrl = document.querySelector( 'link[rel=canonical]' ) ? document.querySelector( 'link[rel=canonical]' ).href : window.location.href;
+				// Share it!
+				navigator.share( {
+					title: document.title,
+					url: shareUrl
+				} ).then( () => console.log( 'Successful share' ) )
+					.catch( ( error ) => console.log( 'Error sharing:', error ) );
+				ev.preventDefault();
+			} else {
+				supported.innerHTML = "Unfortunately, this feature is not supported on your browser";
+			}
+		} );
+	</script>
 </body>
 
 </html>
