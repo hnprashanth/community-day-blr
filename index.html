@@ -38,6 +38,7 @@
 	<link id="theme" rel="stylesheet" href="assets/css/theme.css">
 	<link rel="stylesheet" href="assets/css/style1.css">
 	<link rel="stylesheet" href="assets/css/responsive.css">
+	<link rel="stylesheet" href="assets/css/modal.css">
 
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
 	 crossorigin="anonymous">
@@ -546,7 +547,29 @@
 													</tr>
 													<tr>
 														<td class="td"> 16:30 to 17:15</td>
-														<td class="tdinfo"><strong>Lightning talks</strong><br>
+														<td class="tdinfo" style="text-align:center;display: table-cell;
+														vertical-align: middle;"><strong>
+
+																<a class="btn" href="#open-modal"><i class="fas fa-external-link-alt"></i> LIGHTNING TALKS <i style="font-size:14px;"
+																	 class="material-icons">
+																		open_in_new
+																	</i></a>
+																<div id="open-modal" class="modal-window">
+																	<div class="lightning-talks">
+																		<h1 style="color:white;background-color:#232f3f;text-align:center;">Lightning Talks</h1>
+																		<h4> <b> Serverless Application Architecture​ </b> - <i> Jiju Thomas Mathew</i></h4>
+																		<h4><b>DynamoDB, RDS and IoT Integration Challenges and Solutions</b> - <i> P Suresh Kumar </i></h4>
+																		<h4> <b> Identity federation with AWS Cognito </b> - <i> Kumaravel P </i></h4>
+																		<h4><b> AWS Serverless Infrastructure - Integration Testing </b> - <i> Santhosh </i></h4>
+																		<!-- <div>A CSS-only modal based on the :target pseudo-class. Hope you find it helpful. <a href="https://twitter.com/timothylong"
+																			target="_blank">Say hello on Twitter.</div> -->
+																		<a href="#modal-close" title="Close" class="modal-close">Close</a>
+																	</div>
+																</div>
+
+
+
+															</strong><br>
 														</td>
 														<td class="tdinfo"><strong>Cost optimized logging using API Gateway, SQS &amp; Elasticsearch</strong><br>
 															<a href="https://www.linkedin.com/in/mitesh-sharma-76722015/" target="_blank">Mitesh Sharma</a>,
