@@ -56,8 +56,11 @@
 	background-color: rgba(255, 0, 8, 0.6);
 	color: white;
 }
+.lightning-talks > h4 {
+	text-align: left;
+}
 
-.md-btn {
+/* .md-btn {
 	background-color: #fff;
 	padding: 1em 1.5em;
 	border-radius: 3px;
@@ -65,4 +68,10 @@
 }
 .md-btn i {
 	padding-right: 0.3em;
+} */
+
+.lightning-talk-lists > li {
+	text-align: left;
+	list-style: circle;
+	color: #333;
 }
