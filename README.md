@@ -1,1 +1,1 @@
-# community-day-blr
+# AWS Community Day, Bengaluru 2018
